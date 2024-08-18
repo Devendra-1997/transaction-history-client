@@ -135,6 +135,7 @@ cd transaction-history-client
 3. Create a New Branch
 
 Copy code
+
 git checkout -b feature/your-feature-name
 
 4. Make Changes
@@ -144,6 +145,7 @@ git checkout -b feature/your-feature-name
 
 Copy code
 git add .
+
 git commit -m "Add your commit message"
 git push origin feature/your-feature-name
 
