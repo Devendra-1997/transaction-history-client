@@ -1,9 +1,18 @@
-import "./App.css";
+import { Route, Routes } from "react-router-dom";
+
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
+import SignupPage from "./pages/signupPage";
+import LoginPage from "./pages/loginPage";
 
 function App() {
   return (
     <>
-      <p>Transaction History loading soon....</p>
+      <Routes>
+        <Route path="/signup" element={<SignupPage />} />
+        <Route path="/login" element={<LoginPage />} />
+      </Routes>
+      <ToastContainer />
     </>
   );
 }
