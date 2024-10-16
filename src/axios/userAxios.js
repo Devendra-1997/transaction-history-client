@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Server URL
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "https://transaction-history-api-1.onrender.com";
 const userEndpoint = "/api/user";
 
 const API_URL = API_BASE_URL + userEndpoint;
