@@ -1,10 +1,7 @@
 import axios from "axios";
 
 // Server URL
-const API_BASE_URL = "http://localhost:8000";
-const transactionEndpoint = "/api/transaction";
-
-const API_URL = API_BASE_URL + transactionEndpoint;
+const API_URL = `${import.meta.env.VITE_APP_API_BASE_URL}/api/transaction`;
 
 // Create a transaction | Create | POST
 export const createTransaction = (transactionObj) => {
